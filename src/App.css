@@ -30,3 +30,65 @@
     transform: rotate(360deg);
   }
 }
+
+body{
+  text-align: center;
+}
+
+.profile-img{
+  margin-top: 30px;
+  border-radius: 50px;
+  height: 100px;
+  width: 100px;
+}
+
+.top-title{
+  font-size:2.5rem;
+  font-weight: 800;
+  letter-spacing: 3px;
+}
+.job-title{
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+
+.job-title::after{
+  content: " ";
+  border: solid 1px #0093cb;
+  display: block;
+  width: 55px;
+  margin: 15px auto;
+}
+
+.section-title{
+  font-size:2.3rem;
+  font-weight:500;
+  letter-spacing: 2px;
+  margin-top:30px;
+  margin-bottom:30px;
+}
+
+.sns-icon{
+  margin:10px;
+}
+
+.product-card{
+  margin:10px;
+  width:345px;
+  height:400px;
+}
+.product-img{
+  height:200px;
+}
+
+.card-container{
+  margin:30px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.skills-chart{
+  display:inline-block;
+  text-align: center;
+}

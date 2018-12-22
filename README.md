@@ -1,3 +1,12 @@
+# 各ディレクトリの役割
+
+conponents ... stateを持たないコンポーネント
+containers ... stateを持つコンポーネント
+
+actions ... 
+reducers ...
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
