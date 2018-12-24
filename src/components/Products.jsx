@@ -56,12 +56,13 @@ const ProductList = () =>{
   });
 
   return(
-    <React.Fragment>
+    <div className="products">
       <div className="section-title">PRODUCTS</div>
+      <div className="section-description">今まで趣味で開発したWebアプリケーションです</div>
       <div className="card-container">
       {products}
       </div>
-    </React.Fragment>
+    </div>
   );
 }
 

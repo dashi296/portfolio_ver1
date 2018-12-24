@@ -5,7 +5,8 @@ import Profile from '../components/Profile';
 import Top from '../components/Top';
 import About from '../components/About';
 import Skills from '../components/Skills';
-import Product from '../components/Products';
+import Products from '../components/Products';
+import Contact from '../components/Contact';
 import '../App.css';
 
 import { BrowserRouter, Route} from 'react-router-dom';
@@ -21,7 +22,8 @@ class App extends Component {
           <Route exact path="/" component={Top} />
           <Route path="/About" component={About} />
           <Route path="/skills" component={Skills} />
-          <Route path="/products" component={Product} />
+          <Route path="/products" component={Products} />
+          <Route path="/contact" component={Contact} />
           <Footer />
           </React.Fragment>
         </BrowserRouter>

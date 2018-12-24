@@ -1,3 +1,5 @@
+
+
 .App {
   text-align: center;
 }
@@ -31,41 +33,80 @@
   }
 }
 
+html{
+  font-size:62.5%;
+}
+
+header{
+  background-color:#242830;
+}
+
+footer{
+  color:white;
+  padding-top:30px;
+  padding-bottom: 10px;
+  background-color:#242830;
+}
+
 body{
   text-align: center;
+  font-size:1.2rem;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  /*background-image: url('./images/joanna-kosinska-414555-unsplash.jpg');*/
+  background-size: cover;
+}
+
+a {
+  text-decoration: none;
+}
+
+.profile{
+  padding-top:30px;
+  padding-bottom: 20px;
 }
 
 .profile-img{
-  margin-top: 30px;
   border-radius: 50px;
   height: 100px;
   width: 100px;
+  margin:10px;
 }
 
 .top-title{
-  font-size:2.5rem;
-  font-weight: 800;
-  letter-spacing: 3px;
+  font-size:3.0rem;
+  font-weight: 900;
+  letter-spacing: 5px;
+  font-family: 'Raleway', sans-serif;
+  margin-bottom:8px;
 }
 .job-title{
-  font-weight: 500;
-  letter-spacing: 2px;
+  font-size:1.4rem;
+  font-weight: 300;
+  letter-spacing: 3px;
+  font-family: 'Varela Round', sans-serif;
 }
 
 .job-title::after{
-  content: " ";
+  content: "";
   border: solid 1px #0093cb;
   display: block;
   width: 55px;
   margin: 15px auto;
 }
 
+.about, .skills, .products, .contact{
+  padding-top:30px;
+  padding-bottom: 30px;
+
+  background-color: #f3f5f8;
+}
+
 .section-title{
-  font-size:2.3rem;
-  font-weight:500;
+  font-family: 'Raleway', sans-serif;
+  font-size:2.5rem;
+  font-weight:800;
   letter-spacing: 2px;
-  margin-top:30px;
-  margin-bottom:30px;
+  margin-bottom:20px;
 }
 
 .sns-icon{
@@ -75,6 +116,7 @@ body{
 .product-card{
   margin:10px;
   width:345px;
+  min-width:345px;
   height:400px;
 }
 .product-img{
@@ -82,8 +124,11 @@ body{
 }
 
 .card-container{
-  margin:30px;
+  width:100%;
+  margin-top:30px;
+  margin-bottom:30px;
   display:flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 }
@@ -91,4 +136,5 @@ body{
 .skills-chart{
   display:inline-block;
   text-align: center;
+
 }

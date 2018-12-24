@@ -4,41 +4,43 @@ import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
 import Button from '@material-ui/core/Button';
-import IconButton from '@material-ui/core/IconButton';
-import MenuIcon from '@material-ui/icons/Menu';
 import { Link } from 'react-router-dom';
 
 const styles = {
   root: {
+    position:'sticky',
+    top:0,
+    backgroundColor:'#242830',
     flexGrow: 1,
   },
-  grow: {
-    flexGrow: 1,
+  logo: {
+    fontWeight:1000,
+    letterSpacing:4,
+    marginRight:30,
   },
   menuButton: {
-    marginLeft: -12,
-    marginRight: 20,
-  },
+    fontSize:13,
+    letterSpacing:1,
+    marginLeft: 3,
+    marginRight: 3
+  }
 };
 
-class Header extends Component {
-
-  render() {
+const Header = props => {
+  const { classes } = props; 
     return (
-      <header className="header">
-      <AppBar position="static">
+      <AppBar position="static" classes={{root: classes.root}}>
         <Toolbar>
-          <Typography variant="h6" color="inherit" className="Typography" component={Link} to="/">
-            Shun's Portfolio
+          <Typography variant="h3" classes={{root: classes.logo}}  color="inherit" className="Typography" component={Link} to="/">
+            SHUN OKADA
           </Typography>
-          <Button color="inherit" component={Link} to="/about">ABOUT</Button>
-          <Button color="inherit" component={Link} to="/skills">SKILLS</Button>
-          <Button color="inherit" component={Link} to="/products">PRODUCTS</Button>
+          <Button color="inherit" classes={{root: classes.menuButton}} component={Link} to="/about">ABOUT</Button>
+          <Button color="inherit" classes={{root: classes.menuButton}} component={Link} to="/skills">SKILLS</Button>
+          <Button color="inherit" classes={{root: classes.menuButton}} component={Link} to="/products">PRODUCTS</Button>
+          <Button color="inherit" classes={{root: classes.menuButton}} component={Link} to="/contact">CONTACT</Button>
         </Toolbar>
       </AppBar>
-      </header>
     );
-  }
 }
 
 export default withStyles(styles)(Header);
