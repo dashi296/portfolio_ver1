@@ -5,8 +5,9 @@ import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
 import Button from '@material-ui/core/Button';
 import { Link } from 'react-router-dom';
+import profileImg from '../images/profile_img.png';
 
-const styles = {
+const styles = theme => ({
   root: {
     position:'sticky',
     top:0,
@@ -17,6 +18,9 @@ const styles = {
     fontWeight:1000,
     letterSpacing:3,
     marginRight:30,
+    [theme.breakpoints.down('sm')]: {
+      display:'none',
+    },
   },
   menuButton: {
     fontSize:13,
@@ -24,7 +28,7 @@ const styles = {
     marginLeft: 3,
     marginRight: 3
   }
-};
+});
 
 const Header = props => {
   const { classes } = props; 

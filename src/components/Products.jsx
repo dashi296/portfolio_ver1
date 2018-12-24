@@ -14,7 +14,7 @@ import Chip from '@material-ui/core/Chip';
 const PRODUCTS = [
   {title:"TWESUME", description:"Twitter転職支援サービス", image:"twesume.png", 
   backChips:['Rails','Heroku'], frontChips:['jQuery','Bootstrap','html2canvas'], url:"https://twesumes.net"},
-  {title:"Draft Box", description:"オンラインMarkdownメモサービス", image:"noimage_gray.jpg", 
+  {title:"Draft Box", description:"オンラインMarkdownメモサービス", image:"draftbox.png", 
   backChips:['Rails','Heroku'], frontChips:['jQuery','Marked.js'], url:"https://draftbox.herokuapp.com"}
 ];
 
