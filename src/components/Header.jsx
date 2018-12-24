@@ -15,7 +15,7 @@ const styles = {
   },
   logo: {
     fontWeight:1000,
-    letterSpacing:4,
+    letterSpacing:3,
     marginRight:30,
   },
   menuButton: {
@@ -31,7 +31,7 @@ const Header = props => {
     return (
       <AppBar position="static" classes={{root: classes.root}}>
         <Toolbar>
-          <Typography variant="h3" classes={{root: classes.logo}}  color="inherit" className="Typography" component={Link} to="/">
+          <Typography variant="h4" classes={{root: classes.logo}}  color="inherit" className="Typography" component={Link} to="/">
             SHUN OKADA
           </Typography>
           <Button color="inherit" classes={{root: classes.menuButton}} component={Link} to="/about">ABOUT</Button>

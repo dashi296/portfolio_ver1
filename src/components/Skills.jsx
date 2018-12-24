@@ -26,9 +26,8 @@ const SkillsChart = () => {
             <Radar name="Shun" dataKey="val" stroke="#8884d8" fill="#8884d8" fillOpacity={0.6}/>
           </RadarChart>
         </div>
-
         <p>
-        ※完全に主観ですが、触れた技術の習得レベルです
+        ※私の主観ですが、触れた技術の習得レベルです
         </p>
       </div>
     );
