@@ -18,7 +18,7 @@ class App extends Component {
           <React.Fragment>
           <Header />
           <Profile />
-          <Route exact path="/portfolio" component={Top} />
+          <Route exact path="/" component={Top} />
           <Route path="/skills" component={Skills} />
           <Route path="/products" component={Products} />
           <Route path="/contact" component={Contact} />
