@@ -3,7 +3,6 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 import Profile from '../components/Profile';
 import Top from '../components/Top';
-import About from '../components/About';
 import Skills from '../components/Skills';
 import Products from '../components/Products';
 import Contact from '../components/Contact';
@@ -20,7 +19,6 @@ class App extends Component {
           <Header />
           <Profile />
           <Route exact path="/portfolio" component={Top} />
-          <Route path="/about" component={About} />
           <Route path="/skills" component={Skills} />
           <Route path="/products" component={Products} />
           <Route path="/contact" component={Contact} />

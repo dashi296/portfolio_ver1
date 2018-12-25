@@ -22,7 +22,7 @@ const SkillsChart = () => {
     	    <RadarChart cx={250} cy={200} outerRadius={170} data={SKILLS} width={500} height={400}>
             <PolarGrid />
             <PolarAngleAxis dataKey="title" />
-            <PolarRadiusAxis angle={45} domain={[0,100]}/>
+            <PolarRadiusAxis angle={50} domain={[0,100]} />
             <Radar name="Shun" dataKey="val" stroke="#8884d8" fill="#8884d8" fillOpacity={0.6}/>
           </RadarChart>
         </div>
