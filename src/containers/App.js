@@ -18,10 +18,10 @@ class App extends Component {
           <React.Fragment>
           <Header />
           <Profile />
-          <Route exact path={process.env.PUBLIC_URL + "/"} component={Top} />
-          <Route path={process.env.PUBLIC_URL + "/skills"} component={Skills} />
-          <Route path={process.env.PUBLIC_URL + "/products"} component={Products} />
-          <Route path={process.env.PUBLIC_URL + "/contact"} component={Contact} />
+          <Route exact path="/" component={Top} />
+          <Route path="/skills" component={Skills} />
+          <Route path="/products" component={Products} />
+          <Route path="/contact" component={Contact} />
           <Footer />
           </React.Fragment>
         </BrowserRouter>
