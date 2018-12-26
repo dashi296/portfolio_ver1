@@ -35,12 +35,12 @@ const Header = props => {
     return (
       <AppBar position="static" classes={{root: classes.root}}>
         <Toolbar>
-          <Typography variant="h4" classes={{root: classes.logo}}  color="inherit" className="Typography" component={Link} to={process.env.PUBLIC_URL + "/"}>
+          <Typography variant="h4" classes={{root: classes.logo}}  color="inherit" className="Typography" component={Link} to="/">
             SHUN OKADA
           </Typography>
-          <Button color="inherit" classes={{root: classes.menuButton}} component={Link} to={process.env.PUBLIC_URL + "/skills"}>SKILLS</Button>
-          <Button color="inherit" classes={{root: classes.menuButton}} component={Link} to={process.env.PUBLIC_URL + "/products"}>PRODUCTS</Button>
-          <Button color="inherit" classes={{root: classes.menuButton}} component={Link} to={process.env.PUBLIC_URL + "/contact"}>CONTACT</Button>
+          <Button color="inherit" classes={{root: classes.menuButton}} component={Link} to="/skills">SKILLS</Button>
+          <Button color="inherit" classes={{root: classes.menuButton}} component={Link} to="/products">PRODUCTS</Button>
+          <Button color="inherit" classes={{root: classes.menuButton}} component={Link} to="/contact">CONTACT</Button>
         </Toolbar>
       </AppBar>
     );
