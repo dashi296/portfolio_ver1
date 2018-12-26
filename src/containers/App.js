@@ -8,13 +8,13 @@ import Products from '../components/Products';
 import Contact from '../components/Contact';
 import '../App.css';
 
-import { BrowserRouter, Route ,hashHistory} from 'react-router-dom';
+import { BrowserRouter, Route} from 'react-router-dom';
 
 class App extends Component {
   
   render() {
     return (
-        <BrowserRouter basename={process.env.PUBLIC_URL} history={hashHistory}>
+        <BrowserRouter basename={process.env.PUBLIC_URL}>
           <React.Fragment>
           <Header />
           <Profile />
