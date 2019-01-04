@@ -8,7 +8,7 @@ import Products from '../components/Products';
 import Contact from '../components/Contact';
 import '../App.css';
 
-import { BrowserRouter, Route} from 'react-router-dom';
+import { BrowserRouter, Route, Switch} from 'react-router-dom';
 
 class App extends Component {
   
@@ -18,10 +18,13 @@ class App extends Component {
           <React.Fragment>
           <Header />
           <Profile />
+          
           <Route exact path="/" component={Top} />
+          <Switch>
           <Route path="/skills" component={Skills} />
           <Route path="/products" component={Products} />
           <Route path="/contact" component={Contact} />
+          </Switch>
           <Footer />
           </React.Fragment>
         </BrowserRouter>

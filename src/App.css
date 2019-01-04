@@ -131,7 +131,14 @@ a {
   align-items: center;
 }
 
+.chart-container{
+  width:100%;
+  height:300px;
+}
+
 .skills-chart{
+  width:100%;
+  height:100%;
   display:inline-block;
   text-align: center;
 }
