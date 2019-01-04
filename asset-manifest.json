@@ -1,7 +1,7 @@
 {
-  "main.css": "/portfolio/static/css/main.7a6f9740.chunk.css",
-  "main.js": "/portfolio/static/js/main.4b91658b.chunk.js",
-  "main.js.map": "/portfolio/static/js/main.4b91658b.chunk.js.map",
+  "main.css": "/portfolio/static/css/main.3607b292.chunk.css",
+  "main.js": "/portfolio/static/js/main.885a1423.chunk.js",
+  "main.js.map": "/portfolio/static/js/main.885a1423.chunk.js.map",
   "static/js/1.a53dbc8d.chunk.js": "/portfolio/static/js/1.a53dbc8d.chunk.js",
   "static/js/1.a53dbc8d.chunk.js.map": "/portfolio/static/js/1.a53dbc8d.chunk.js.map",
   "runtime~main.js": "/portfolio/static/js/runtime~main.ee2a1003.js",
@@ -12,8 +12,8 @@
   "static/media/roberto-nickson-g-715417-unsplash.jpg": "/portfolio/static/media/roberto-nickson-g-715417-unsplash.524bed1a.jpg",
   "static/media/twesume.png": "/portfolio/static/media/twesume.1fc45dec.png",
   "static/media/draftbox.png": "/portfolio/static/media/draftbox.fd363670.png",
-  "static/css/main.7a6f9740.chunk.css.map": "/portfolio/static/css/main.7a6f9740.chunk.css.map",
+  "static/css/main.3607b292.chunk.css.map": "/portfolio/static/css/main.3607b292.chunk.css.map",
   "index.html": "/portfolio/index.html",
-  "precache-manifest.8769615eaca2229b7e74e06215839e90.js": "/portfolio/precache-manifest.8769615eaca2229b7e74e06215839e90.js",
+  "precache-manifest.b90f5710279b6db5fb140243d2713a3c.js": "/portfolio/precache-manifest.b90f5710279b6db5fb140243d2713a3c.js",
   "service-worker.js": "/portfolio/service-worker.js"
 }
