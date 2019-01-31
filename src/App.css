@@ -94,7 +94,7 @@ a {
   margin: 15px auto;
 }
 
-.top ,.about, .skills, .products, .contact{
+.top ,.about, .skills, .products, .contact, .blogs{
   padding:30px 20px;
   background-color: #f3f5f8;
 }
@@ -118,6 +118,17 @@ a {
   height:400px;
 }
 .product-img{
+  height:200px;
+}
+
+.blog-card{
+  margin:10px;
+  width:345px;
+  min-width:345px;
+  max-height:400px;
+}
+
+.blog-img{
   height:200px;
 }
 

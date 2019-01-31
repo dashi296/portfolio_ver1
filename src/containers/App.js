@@ -6,6 +6,7 @@ import Top from '../components/Top';
 import Skills from '../components/Skills';
 import Products from '../components/Products';
 import Contact from '../components/Contact';
+import Blog from '../components/Blog';
 import '../App.css';
 
 import { BrowserRouter, Route, Switch} from 'react-router-dom';
@@ -23,6 +24,7 @@ class App extends Component {
           <Switch>
           <Route path="/skills" component={Skills} />
           <Route path="/products" component={Products} />
+          <Route path="/blog" component={Blog} />
           <Route path="/contact" component={Contact} />
           </Switch>
           <Footer />

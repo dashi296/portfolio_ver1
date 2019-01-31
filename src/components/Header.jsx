@@ -40,6 +40,7 @@ const Header = props => {
           </Typography>
           <Button color="inherit" classes={{root: classes.menuButton}} component={Link} to="/skills">SKILLS</Button>
           <Button color="inherit" classes={{root: classes.menuButton}} component={Link} to="/products">PRODUCTS</Button>
+          <Button color="inherit" classes={{root: classes.menuButton}} component={Link} to="/blog">BLOG</Button>
           <Button color="inherit" classes={{root: classes.menuButton}} component={Link} to="/contact">CONTACT</Button>
         </Toolbar>
       </AppBar>
