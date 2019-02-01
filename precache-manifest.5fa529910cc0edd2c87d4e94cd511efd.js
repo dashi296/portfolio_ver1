@@ -48,7 +48,7 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/uniweb.82895cb0.png"
   },
   {
-    "revision": "ddab00157a9a2c24b2715d699f68afcb",
+    "revision": "bfcc7a5f2b82a392b68a852e873a2fd3",
     "url": "/portfolio/index.html"
   }
 ];
