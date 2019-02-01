@@ -9,13 +9,13 @@ import Contact from '../components/Contact';
 import Blog from '../components/Blog';
 import '../App.css';
 
-import { HashRouter, Route, Switch} from 'react-router-dom';
+import { BrowserRouter, Route, Switch} from 'react-router-dom';
 
 class App extends Component {
   
   render() {
     return (
-        <HashRouter basename={process.env.PUBLIC_URL}>
+        <BrowserRouter basename={process.env.PUBLIC_URL}>
           <React.Fragment>
           <Header />
           <Profile />
@@ -29,7 +29,7 @@ class App extends Component {
           </Switch>
           <Footer />
           </React.Fragment>
-        </HashRouter>
+        </BrowserRouter>
     );
   }
 }
