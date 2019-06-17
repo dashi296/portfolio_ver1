@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
-  "homepage": "https://unio296.github.io/portfolio",
+  "homepage": "https://dashi296.github.io/portfolio",
   "private": true,
   "dependencies": {
     "@babel/core": "7.1.0",

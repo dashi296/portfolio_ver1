@@ -1,15 +1,15 @@
 self.__precacheManifest = [
   {
-    "revision": "0d8d6b92863808b578a5c5e3bda61f30",
-    "url": "/portfolio/static/media/joanna-kosinska-414555-unsplash.0d8d6b92.jpg"
+    "revision": "694d20dc87d5c5646d00",
+    "url": "/portfolio/static/css/main.f3ce11da.chunk.css"
   },
   {
-    "revision": "110e7d6b8c0d699bc29c",
-    "url": "/portfolio/static/css/main.b8bd9b53.chunk.css"
+    "revision": "694d20dc87d5c5646d00",
+    "url": "/portfolio/static/js/main.694d20dc.chunk.js"
   },
   {
-    "revision": "6e4d9a7e12ea47d08742",
-    "url": "/portfolio/static/js/1.6e4d9a7e.chunk.js"
+    "revision": "781624053b4fbb18b614",
+    "url": "/portfolio/static/js/1.78162405.chunk.js"
   },
   {
     "revision": "ee2a100325fd284f0097",
@@ -24,8 +24,8 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/draftbox.fd363670.png"
   },
   {
-    "revision": "110e7d6b8c0d699bc29c",
-    "url": "/portfolio/static/js/main.110e7d6b.chunk.js"
+    "revision": "0d8d6b92863808b578a5c5e3bda61f30",
+    "url": "/portfolio/static/media/joanna-kosinska-414555-unsplash.0d8d6b92.jpg"
   },
   {
     "revision": "63fad158e56fccc782e5b2edd93e117c",
@@ -48,7 +48,7 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/uniweb.82895cb0.png"
   },
   {
-    "revision": "8a2ccd9b88d6934c7bd89d9efac4a389",
+    "revision": "9dbe7bfbbc1c505758a66463eee41ea0",
     "url": "/portfolio/index.html"
   }
 ];
