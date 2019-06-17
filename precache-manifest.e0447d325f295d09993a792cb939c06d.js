@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "694d20dc87d5c5646d00",
+    "revision": "6f9046ab23f2787202ea",
     "url": "/portfolio/static/css/main.f3ce11da.chunk.css"
   },
   {
-    "revision": "694d20dc87d5c5646d00",
-    "url": "/portfolio/static/js/main.694d20dc.chunk.js"
+    "revision": "6f9046ab23f2787202ea",
+    "url": "/portfolio/static/js/main.6f9046ab.chunk.js"
   },
   {
     "revision": "781624053b4fbb18b614",
@@ -48,7 +48,7 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/uniweb.82895cb0.png"
   },
   {
-    "revision": "9dbe7bfbbc1c505758a66463eee41ea0",
+    "revision": "4ea27e8fb3850251d45bf8fdd96bf398",
     "url": "/portfolio/index.html"
   }
 ];
